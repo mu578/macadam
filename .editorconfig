@@ -1,0 +1,26 @@
+# BOF
+
+root                 = true
+
+[*]
+end_of_line          = lf
+insert_final_newline = false
+indent_style         = tab
+indent_size          = 3
+
+[.*]
+end_of_line          = lf
+insert_final_newline = false
+indent_style         = tab
+indent_size          = 3
+
+[*.{h, c, cpp, cc, hpp, json, txt, md, mk, csv, m, mm, java, py, sh, pyx, pxd}]
+charset              = utf-8
+end_of_line          = lf
+insert_final_newline = false
+indent_style         = tab
+indent_size          = 3
+
+c_include_path       = ../macadam
+
+# EOF
